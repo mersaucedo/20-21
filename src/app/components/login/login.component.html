@@ -1,0 +1,29 @@
+
+    
+  
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <div id="home" class="container tab-pane active"><br>
+        <h3>Login</h3>
+
+        <div class="container mt-3">
+            <form >
+              <div class="mb-3 mt-3">
+                <label for="Username">Username</label>
+                <input type="text" class="form-control" id="username" name="user" [(ngModel)]="username" autocomplete="off"
+                required  >
+              </div>
+              <div class="mb-3">
+                <label for="pwd">Password:</label>
+                <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd"  autocomplete="off" [(ngModel)]="password" >
+              </div>
+              <!-- <input type="button" value="Enviar" (click)="enviarForm()" /> -->
+              <button type="button" class="btn btn-primary" value="Enviar" (click)="enviarForm()">Ingresar</button>
+            </form>
+          </div>
+
+     </div>
+
+     
+    </div>
+ 
